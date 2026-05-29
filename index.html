@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reese's Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1 class="site-title">🦦 Reese's Space</h1>
+      <nav>
+        <a href="index.html">關於我</a>
+        <a href="works.html">我的作品</a>
+        <a href="blog.html">生活日誌</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-card">
+      <img class="avatar" src="avatar.png" alt="大頭照" onerror="this.style.display='none'">
+      <div class="about-text">
+        <h2>Hi，我是 Reese 👋</h2>
+        <p>國立臺灣海洋大學 運輸科學系碩士生。</p>
+        <p>喜歡學新東西、教人、做專案。平常研究碳稅供應鏈模型，閒暇時拉小提琴、玩塔羅牌。</p>
+        <div class="tags">
+          <span>Python</span><span>R</span><span>AI</span>
+          <span>碳稅研究</span><span>小提琴</span><span>塔羅牌</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">🙋 關於我</h2>
+      <ul>
+        <li>📍 基隆市</li>
+        <li>🎓 國立臺灣海洋大學 運輸科學系 碩士候選人</li>
+        <li>📧 ronggi239@gmail.com</li>
+        <li>🏅 AWS Certified AI Practitioner</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">📷 生活照</h2>
+      <p class="hint">把你的照片放進 <code>photos/</code> 資料夾，檔名依序命名為 photo1.jpg、photo2.jpg…</p>
+      <div class="photo-grid" id="photoGrid">
+        <!-- 預設顯示水獺佔位 -->
+        <div class="photo-placeholder">📷</div>
+        <div class="photo-placeholder">📷</div>
+        <div class="photo-placeholder">📷</div>
+        <div class="photo-placeholder">📷</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">💼 我的作品</h2>
+      <table class="works-table">
+        <thead>
+          <tr><th>名稱</th><th>種類</th><th>連結</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>秋名山道練習</td>
+            <td>JavaScript</td>
+            <td><a href="https://koding.school/projects/qmdsejy" target="_blank">前往查看</a></td>
+          </tr>
+          <tr>
+            <td>迷宮</td>
+            <td>JavaScript</td>
+            <td><a href="https://koding.school/projects/ej9s2pmr" target="_blank">前往查看</a></td>
+          </tr>
+          <tr>
+            <td>我的日曆</td>
+            <td>Web</td>
+            <td><a href="https://koding.school/projects/36ysmr9d" target="_blank">前往查看</a></td>
+          </tr>
+          <tr>
+            <td>個人部落格</td>
+            <td>HTML / CSS / JS</td>
+            <td><span class="tag-self">本站</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Reese Wang · Built with ☕ and HTML</p>
+  </footer>
+</body>
+</html>
